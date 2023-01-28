@@ -34,7 +34,7 @@ interests:
 education:
   courses:
     - course: BS undergraduate in Computer Science and Technology
-      institution: Tsinghua Universit
+      institution: Tsinghua University
       year: 2020-2024
 
 # Social/Academic Networking

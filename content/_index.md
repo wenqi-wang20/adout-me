@@ -41,27 +41,34 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
+        - title: Vice President of THUCSSAST
+          company: Student Association of Science and Technology
           company_url: ""
-          company_logo: org-gc
-          location: California
-          date_start: "2021-01-01"
+          company_logo: sast
+          location: Beijing
+          date_start: "2022-06-01"
           date_end: ""
           description: |2-
-              Responsibilities include:
+              Serving for student association, organizing the AI Game annually and maintaining www.saiblo.net site.
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+        - title: Research Intern
+          company: Megvii Research
           company_url: ""
-          company_logo: org-x
+          company_logo: megvii
+          location: Beijing
+          date_start: "2022-09-01"
+          date_end: ""
+          description: |-
+              Working as a research intern in Base-Model Group.
+
+        - title: Research Intern
+          company: Institude of AI Industry Research, Tsinghua University
+          company_url: ""
+          company_logo: AIR
           location: California
-          date_start: "2016-01-01"
-          date_end: "2020-12-31"
-          description: Taught electronic engineering and researched semiconductor physics.
+          date_start: "2021-10-01"
+          date_end: "2022-03-01"
+          description: Focused on efficiently Federated Learning and large-scale data.
     design:
       columns: "2"
   # - block: accomplishments
@@ -147,8 +154,8 @@ sections:
       buttons:
         - name: All
           tag: "*"
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: CV/CG
+          tag: CVCG
         - name: Other
           tag: Demo
     design:
@@ -162,7 +169,7 @@ sections:
       title: Gallery
       subtitle: ""
       text: |-
-        {{< gallery album="demo" >}}
+        {{< gallery album="2022-1" >}}
     design:
       columns: "1"
   # - block: collection
@@ -214,7 +221,7 @@ sections:
       #        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula 			    #efficitur enim.
       # Contact (add or remove contact options as necessary)
       email: vextawang@gmail.com
-      email: wangwq20@mails.tsinghua.edu.cn
+      email: wangwq20@mails.tsinghua.edu.cn / vextawang@gmail.com
       phone: +86 13637294202
       # appointment_url: "https://calendly.com"
       # address:
