@@ -65,7 +65,7 @@ sections:
           company: Institude of AI Industry Research, Tsinghua University
           company_url: ""
           company_logo: AIR
-          location: California
+          location: Beijing
           date_start: "2021-10-01"
           date_end: "2022-03-01"
           description: Focused on efficiently Federated Learning and large-scale data.
