@@ -33,7 +33,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: BS undergraduate in Computer Science and Technology
+    - course: BS in Computer Science and Technology
       institution: Tsinghua University
       year: 2020-2024
 
