@@ -9,10 +9,10 @@ summary: Welcome 👋 We know that first impressions are important, so we've pop
 projects: []
 
 # Date published
-date: '2020-12-13T00:00:00Z'
+date: "2020-12-13T00:00:00Z"
 
 # Date updated
-lastmod: '2020-12-13T00:00:00Z'
+lastmod: "2020-12-13T00:00:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -23,14 +23,13 @@ featured: false
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
-  focal_point: ''
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)"
+  focal_point: ""
   placement: 2
   preview_only: false
 
 authors:
-  - admin
-  - 吳恩達
+  - Demo
 
 tags:
   - Academic
@@ -67,7 +66,7 @@ print('hello')
 
 To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
 
-### [❤️ Click here to become a sponsor and help support Wowchemy's future ❤️](https://wowchemy.com/sponsor/)
+### [❤️ Click here to become a sponsor and help support Wowchemy&#39;s future ❤️](https://wowchemy.com/sponsor/)
 
 As a token of appreciation for sponsoring, you can **unlock [these](https://wowchemy.com/sponsor/) awesome rewards and extra features 🦄✨**
 

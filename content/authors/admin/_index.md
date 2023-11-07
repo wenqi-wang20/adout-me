@@ -67,6 +67,6 @@ highlight_name: true
 
 # About me
 
-Hi, there! I am a third-year undergraduate student from Tsinghua University, majoring in Computer Science and Technology. Currently, I am interested in computer graphics and computer vision, advised by [Prof. Kun Xu](https://cg.cs.tsinghua.edu.cn/people/~kun/). And I am doing an internship at Megvii Research Lab on vision base model. Here is my [curriculum vitae](uploads/resume.pdf).
+Hi, there! I am a senior undergraduate student from Tsinghua University, majoring in Computer Science and Technology. Currently, I am interested in computer graphics and computer vision, advised by [Prof. Kun Xu](https://cg.cs.tsinghua.edu.cn/people/~kun/). Since 2023 summer, I am fortunate to be advised by [Prof. Hao (Richard) Zhang](https://www2.cs.sfu.ca/~haoz/index.html), working on 3D reconstruction and shape processing. Here is my [curriculum vitae](uploads/wenqiwang_resume.pdf).
 
 {style="text-align: justify;"}

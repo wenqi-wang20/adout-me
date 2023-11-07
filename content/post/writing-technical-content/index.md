@@ -2,9 +2,12 @@
 title: Writing technical content in Markdown
 date: 2019-07-12
 math: true
+authors:
+  - Demo
+
 image:
   placement: 2
-  caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
+  caption: "Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)"
 ---
 
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
@@ -19,11 +22,7 @@ On this page, you'll find some examples of the types of technical content that c
 
 Wowchemy supports a Markdown extension for highlighting code syntax. You can customize the styles under the `syntax_highlighter` option in your `config/_default/params.yaml` file.
 
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
+    ``python     import pandas as pd     data = pd.read_csv("data.csv")     data.head()     ``
 
 renders as
 
@@ -57,7 +56,7 @@ A simple mindmap defined as a Markdown list:
 
 renders as
 
-```markmap {height="200px"}
+```markmap
 - Hugo Modules
   - wowchemy
   - wowchemy-plugins-netlify
@@ -95,7 +94,7 @@ A more advanced mindmap with formatting, code blocks, and math:
 
 renders as
 
-```markmap
+````markmap
 - Mindmaps
   - Links
     - [Wowchemy Docs](https://wowchemy.com/docs/)
@@ -113,7 +112,7 @@ renders as
       console.log('code block');
       ```
     - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
+````
 
 ### Charts
 
@@ -146,7 +145,11 @@ $$
 renders as
 
 {{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+
+$$
+\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
+$$
+
 {{< /math >}}
 
 Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
@@ -177,13 +180,7 @@ Wowchemy supports a Markdown extension for diagrams. You can enable this feature
 
 An example **flowchart**:
 
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
+    ``mermaid     graph TD     A[Hard] -->|Text| B(Round)     B --> C{Decision}     C -->|One| D[Result 1]     C -->|Two| E[Result 2]     ``
 
 renders as
 
@@ -197,17 +194,7 @@ C -->|Two| E[Result 2]
 
 An example **sequence diagram**:
 
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
+    ``mermaid     sequenceDiagram     Alice->>John: Hello John, how are you?     loop Healthcheck         John->>John: Fight against hypochondria     end     Note right of John: Rational thoughts!     John-->>Alice: Great!     John->>Bob: How about you?     Bob-->>John: Jolly good!     ``
 
 renders as
 
@@ -225,16 +212,7 @@ Bob-->>John: Jolly good!
 
 An example **Gantt diagram**:
 
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
+    ``mermaid     gantt     section Section     Completed :done,    des1, 2014-01-06,2014-01-08     Active        :active,  des2, 2014-01-07, 3d     Parallel 1   :         des3, after des1, 1d     Parallel 2   :         des4, after des1, 1d     Parallel 3   :         des5, after des3, 1d     Parallel 4   :         des6, after des4, 1d     ``
 
 renders as
 
@@ -251,22 +229,7 @@ Parallel 4   :         des6, after des4, 1d
 
 An example **class diagram**:
 
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
+    ``mermaid     classDiagram     Class01 <|-- AveryLongClass : Cool     Class03 *-- Class04     Class05 o-- Class06     Class07 .. Class08     Class09 --> C2 : Where am i?     Class09 --* C3     Class09 --|> Class07     Class07 : equals()     Class07 : Object[] elementData     Class01 : size()     Class01 : int chimp     Class01 : int gorilla     Class08 <--> C2: Cool label     ``
 
 renders as
 
@@ -289,15 +252,7 @@ Class08 <--> C2: Cool label
 
 An example **state diagram**:
 
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
+    ``mermaid     stateDiagram     [*] --> Still     Still --> [*]     Still --> Moving     Moving --> Still     Moving --> Crash     Crash --> [*]     ``
 
 renders as
 
@@ -383,8 +338,8 @@ Here are some examples using the `icon` shortcode to render icons:
 
 renders as
 
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
+{{< icon name="terminal" pack="fas" >}} Terminal
+{{< icon name="python" pack="fab" >}} Python
 {{< icon name="r-project" pack="fab" >}} R
 
 ### Did you find this page helpful? Consider sharing it 🙌

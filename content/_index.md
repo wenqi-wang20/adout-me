@@ -51,24 +51,24 @@ sections:
           description: |2-
               Serving for student association, organizing the AI Game annually and maintaining www.saiblo.net site.
 
-        - title: Research Intern
-          company: Megvii Research
-          company_url: ""
-          company_logo: megvii
-          location: Beijing
-          date_start: "2022-09-01"
-          date_end: ""
-          description: |-
-              Working as a research intern in Base-Model Group.
+#        - title: Research Intern
+#          company: Megvii Research
+#          company_url: ""
+#          company_logo: megvii
+#          location: Beijing
+#          date_start: "2022-09-01"
+#          date_end: ""
+#          description: |-
+#              Working as a research intern in Base-Model Group.
 
-        - title: Research Intern
-          company: Institude of AI Industry Research, Tsinghua University
-          company_url: ""
-          company_logo: AIR
-          location: Beijing
-          date_start: "2021-10-01"
-          date_end: "2022-03-01"
-          description: Focused on efficiently Federated Learning and large-scale data.
+#        - title: Research Intern
+#          company: Institude of AI Industry Research, Tsinghua University
+#          company_url: ""
+#          company_logo: AIR
+#          location: Beijing
+#          date_start: "2021-10-01"
+#          date_end: "2022-03-01"
+#          description: Focused on efficiently Federated Learning and large-scale data.
     design:
       columns: "2"
   # - block: accomplishments
@@ -110,33 +110,33 @@ sections:
   #         url: ""
   #   design:
   #     columns: "2"
-  # - block: collection
-  #   id: posts
-  #   content:
-  #     title: Recent Posts
-  #     subtitle: ""
-  #     text: ""
-  #     # Choose how many pages you would like to display (0 = all pages)
-  #     count: 5
-  #     # Filter on criteria
-  #     filters:
-  #       folders:
-  #         - post
-  #       author: ""
-  #       category: ""
-  #       tag: ""
-  #       exclude_featured: false
-  #       exclude_future: false
-  #       exclude_past: false
-  #       publication_type: ""
-  #     # Choose how many pages you would like to offset by
-  #     offset: 0
-  #     # Page order: descending (desc) or ascending (asc) date.
-  #     order: desc
-  #   design:
-  #     # Choose a layout view
-  #     view: compact
-  #     columns: "2"
+  - block: collection
+    id: posts
+    content:
+      title: Recent Posts
+      subtitle: ""
+      text: ""
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        folders:
+          - post
+        author: "admin"
+        category: ""
+        tag: ""
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+        publication_type: ""
+      # Choose how many pages you would like to offset by
+      offset: 0
+      # Page order: descending (desc) or ascending (asc) date.
+      order: desc
+    design:
+      # Choose a layout view
+      view: compact
+      columns: "2"
   - block: portfolio
     id: projects
     content:
