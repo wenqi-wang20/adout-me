@@ -51,26 +51,26 @@ sections:
           description: |2-
               Serving for student association, organizing the AI Game annually and maintaining www.saiblo.net site.
 
-       - title: Research Intern
-         company: Megvii Research
-         company_url: ""
-         company_logo: megvii
-         location: Beijing
-         date_start: "2022-09-01"
-         date_end: ""
-         description: |-
-             Working as a research intern in Base-Model Group.
+        - title: Research Intern
+          company: Megvii Research
+          company_url: ""
+          company_logo: megvii
+          location: Beijing
+          date_start: "2022-09-01"
+          date_end: ""
+          description: |-
+              Working as a research intern in Base-Model Group.
 
-       - title: Research Intern
-         company: Institude of AI Industry Research, Tsinghua University
-         company_url: ""
-         company_logo: AIR
-         location: Beijing
-         date_start: "2021-10-01"
-         date_end: "2022-03-01"
-         description: Focused on efficiently Federated Learning and large-scale data.
-    design:
-      columns: "2"
+        - title: Research Intern
+          company: Institude of AI Industry Research, Tsinghua University
+          company_url: ""
+          company_logo: AIR
+          location: Beijing
+          date_start: "2021-10-01"
+          date_end: "2022-03-01"
+          description: Focused on efficiently Federated Learning and large-scale data.
+      design:
+        columns: "2"
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
