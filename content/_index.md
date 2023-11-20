@@ -169,7 +169,7 @@ sections:
       title: Gallery
       subtitle: ""
       text: |-
-        {{< gallery album="2023-3" >}}
+        {{< gallery album="2023-11" >}}
     design:
       columns: "1"
   # - block: collection
