@@ -33,6 +33,8 @@ header:
   navbar:
     enable: true
     align: l
+    background:
+      color: black
     show_logo: true
     show_language: false
     show_day_night: true
